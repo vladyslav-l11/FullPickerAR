@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  PickerAR
+
+  Created by Vladyslav Lysenko on 18.08.2023.
+  
+*/
+
+"use.files.with.extension" = "Use files with .usdz extension";
+
+"not.support.skeleton" = "Your device doesn't support skeleton type!";
+"choose.the.model" = "Choose the model of the list";
+"choose.or" = "OR";

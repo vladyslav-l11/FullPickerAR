@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  PickerAR
+
+  Created by Vladyslav Lysenko on 13.08.2023.
+  
+*/
+
+"left.shoulder.joint" = "left_shoulder_1_joint";
+"left.arm.joint" = "left_arm_joint";
+"left.forearm.joint" = "left_forearm_joint";
+"left.hand.joint" = "left_hand_joint";
+
+"right.shoulder.joint" = "right_shoulder_1_joint";
+"right.arm.joint" = "right_arm_joint";
+"right.forearm.joint" = "right_forearm_joint";
+
+"spine.7.joint" = "spine_7_joint";
+
+"neck.1.joint" = "neck_1_joint";
+
+"spine.6.joint" = "spine_6_joint";
+
+"hips.joint" = "hips_joint";
+"left.upLeg.joint" = "left_upLeg_joint";
+"left.leg.joint" = "left_leg_joint";
+
+"right.upLeg.joint" = "right_upLeg_joint";
+"right.leg.joint" = "right_leg_joint";
+
+"right.hand.joint" = "right_hand_joint";
+
+"spine.5.joint" = "spine_5_joint";
+
+"left.foot.joint" = "left_foot_joint";
+"right.foot.joint" = "right_foot_joint";
+
+"neck.2.joint" = "neck_2_joint";
+"neck.3.joint" = "neck_3_joint";
+"neck.4.joint" = "neck_4_joint";
+"head.joint" = "head_joint";
+"jaw.joint" = "jaw_joint";
+"chin.joint" = "chin_joint";
+"left.eye.joint" = "left_eye_joint";
+"left.eyeLowerLid.joint" = "left_eyeLowerLid_joint";
+"left.eyeUpperLid.joint" = "left_eyeUpperLid_joint";
+"left.eyeball.joint" = "left_eyeball_joint";
+"nose.joint" = "nose_joint";
+"right.eye.joint" = "right_eye_joint";
+"right.eyeLowerLid.joint" = "right_eyeLowerLid_joint";
+"right.eyeUpperLid.joint" = "right_eyeUpperLid_joint";
+"right.eyeball.joint" = "right_eyeball_joint";
+
+"right.hand" = "right_hand";
+"right.toes" = "right_toes";
+"left.hand" = "left_hand";
+"left.toes" = "left_toes";
+"spine" = "spine_";

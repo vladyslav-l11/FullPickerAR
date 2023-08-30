@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2751ECA32A6D9B8300D1CC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751ECA22A6D9B8300D1CC05 /* AppDelegate.swift */; };
+		2751ECA52A6D9B8300D1CC05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751ECA42A6D9B8300D1CC05 /* ContentView.swift */; };
+		2751ECA92A6D9B8400D1CC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2751ECA82A6D9B8400D1CC05 /* Assets.xcassets */; };
+		2751ECAC2A6D9B8400D1CC05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2751ECAB2A6D9B8400D1CC05 /* Preview Assets.xcassets */; };
+		2771E5FC2A743B3B004DE9F9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E5FB2A743B3B004DE9F9 /* R.generated.swift */; };
+		2771E6052A795EDB004DE9F9 /* ConfirmButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E6042A795EDB004DE9F9 /* ConfirmButtonView.swift */; };
+		2771E6092A79609B004DE9F9 /* ObjectARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771E6082A79609B004DE9F9 /* ObjectARViewContainer.swift */; };
+		279219512A7D2F27009BFA26 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 279219502A7D2F27009BFA26 /* FocusEntity */; };
+		279219532A7D2FDB009BFA26 /* ObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279219522A7D2FDB009BFA26 /* ObjectARView.swift */; };
+		27B0032F2A8BFBB5004B5E4D /* View+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B0032E2A8BFBB5004B5E4D /* View+Hidden.swift */; };
+		27CED6762A90039E009F2420 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27CED6752A90039E009F2420 /* Localizable.strings */; };
+		27CED6782A912D04009F2420 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CED6772A912D04009F2420 /* SliderView.swift */; };
+		27D107DE2A896AC10049619C /* SkilletJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D107DD2A896AC10049619C /* SkilletJoint.swift */; };
+		27D107E02A896AE60049619C /* SkilletBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D107DF2A896AE60049619C /* SkilletBone.swift */; };
+		27D107E22A896B0A0049619C /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D107E12A896B0A0049619C /* Bones.swift */; };
+		27D107E52A896B530049619C /* SkilletKeys.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27D107E42A896B530049619C /* SkilletKeys.strings */; };
+		27D107E92A896C4D0049619C /* BodySkillet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D107E82A896C4D0049619C /* BodySkillet.swift */; };
+		27D107EB2A896CFC0049619C /* SkilletARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D107EA2A896CFC0049619C /* SkilletARViewContainer.swift */; };
+		27D107EE2A896DAA0049619C /* SkilletARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D107ED2A896DAA0049619C /* SkilletARView.swift */; };
+		27DC029A2A969639006555C9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC02992A969639006555C9 /* HomeView.swift */; };
+		27DC029E2A97581D006555C9 /* ChooseObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC029D2A97581D006555C9 /* ChooseObjectView.swift */; };
+		27DC02A32A978596006555C9 /* ChooseObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC02A22A978596006555C9 /* ChooseObjectViewModel.swift */; };
+		27DC02B12A9792CB006555C9 /* ObjectItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC02B02A9792CB006555C9 /* ObjectItems.swift */; };
+		27DC02B42A979412006555C9 /* ModelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC02B32A979412006555C9 /* ModelPickerView.swift */; };
+		27DC02B82A97995D006555C9 /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27DC02B52A97995D006555C9 /* wateringcan.usdz */; };
+		27DC02B92A97995D006555C9 /* drummertoy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27DC02B62A97995D006555C9 /* drummertoy.usdz */; };
+		27DC02BA2A97995D006555C9 /* sneaker.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27DC02B72A97995D006555C9 /* sneaker.usdz */; };
+		27DC02BC2A979E66006555C9 /* flowers.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 27DC02BB2A979E66006555C9 /* flowers.usdz */; };
+		27DC02BF2A97B56D006555C9 /* PickerNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC02BE2A97B56D006555C9 /* PickerNavigationLink.swift */; };
+		27E06CFA2A8AB563004E268D /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E06CF92A8AB563004E268D /* ObjectView.swift */; };
+		27E06CFD2A8AB57B004E268D /* SkilletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E06CFC2A8AB57B004E268D /* SkilletView.swift */; };
+		BADBE55B18BB545EF0764430 /* Pods_PickerAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B211B375D25F593B2F7BFB1 /* Pods_PickerAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2751EC9F2A6D9B8300D1CC05 /* PickerAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2751ECA22A6D9B8300D1CC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2751ECA42A6D9B8300D1CC05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2751ECA82A6D9B8400D1CC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2751ECAB2A6D9B8400D1CC05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2771E5FB2A743B3B004DE9F9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		2771E6042A795EDB004DE9F9 /* ConfirmButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmButtonView.swift; sourceTree = "<group>"; };
+		2771E6082A79609B004DE9F9 /* ObjectARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectARViewContainer.swift; sourceTree = "<group>"; };
+		279219522A7D2FDB009BFA26 /* ObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectARView.swift; sourceTree = "<group>"; };
+		27B0032E2A8BFBB5004B5E4D /* View+Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Hidden.swift"; sourceTree = "<group>"; };
+		27CED6752A90039E009F2420 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		27CED6772A912D04009F2420 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		27D107DD2A896AC10049619C /* SkilletJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletJoint.swift; sourceTree = "<group>"; };
+		27D107DF2A896AE60049619C /* SkilletBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletBone.swift; sourceTree = "<group>"; };
+		27D107E12A896B0A0049619C /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		27D107E42A896B530049619C /* SkilletKeys.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SkilletKeys.strings; sourceTree = "<group>"; };
+		27D107E82A896C4D0049619C /* BodySkillet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkillet.swift; sourceTree = "<group>"; };
+		27D107EA2A896CFC0049619C /* SkilletARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletARViewContainer.swift; sourceTree = "<group>"; };
+		27D107ED2A896DAA0049619C /* SkilletARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletARView.swift; sourceTree = "<group>"; };
+		27DC02992A969639006555C9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		27DC029D2A97581D006555C9 /* ChooseObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseObjectView.swift; sourceTree = "<group>"; };
+		27DC02A22A978596006555C9 /* ChooseObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseObjectViewModel.swift; sourceTree = "<group>"; };
+		27DC02B02A9792CB006555C9 /* ObjectItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectItems.swift; sourceTree = "<group>"; };
+		27DC02B32A979412006555C9 /* ModelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerView.swift; sourceTree = "<group>"; };
+		27DC02B52A97995D006555C9 /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		27DC02B62A97995D006555C9 /* drummertoy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drummertoy.usdz; sourceTree = "<group>"; };
+		27DC02B72A97995D006555C9 /* sneaker.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker.usdz; sourceTree = "<group>"; };
+		27DC02BB2A979E66006555C9 /* flowers.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flowers.usdz; sourceTree = "<group>"; };
+		27DC02BE2A97B56D006555C9 /* PickerNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNavigationLink.swift; sourceTree = "<group>"; };
+		27E06CF92A8AB563004E268D /* ObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
+		27E06CFC2A8AB57B004E268D /* SkilletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilletView.swift; sourceTree = "<group>"; };
+		4B211B375D25F593B2F7BFB1 /* Pods_PickerAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7497DE636C282BB0B0059483 /* Pods-PickerAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerAR.release.xcconfig"; path = "Target Support Files/Pods-PickerAR/Pods-PickerAR.release.xcconfig"; sourceTree = "<group>"; };
+		7CAD96E541839C19522261BB /* Pods-PickerAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerAR.debug.xcconfig"; path = "Target Support Files/Pods-PickerAR/Pods-PickerAR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2751EC9C2A6D9B8300D1CC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279219512A7D2F27009BFA26 /* FocusEntity in Frameworks */,
+				BADBE55B18BB545EF0764430 /* Pods_PickerAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ACBC51510D535A2CCE49B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD96E541839C19522261BB /* Pods-PickerAR.debug.xcconfig */,
+				7497DE636C282BB0B0059483 /* Pods-PickerAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2751EC962A6D9B8300D1CC05 = {
+			isa = PBXGroup;
+			children = (
+				2751ECA12A6D9B8300D1CC05 /* PickerAR */,
+				2751ECA02A6D9B8300D1CC05 /* Products */,
+				1ACBC51510D535A2CCE49B4C /* Pods */,
+				302C658FAA4833D21A82A9A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2751ECA02A6D9B8300D1CC05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2751EC9F2A6D9B8300D1CC05 /* PickerAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2751ECA12A6D9B8300D1CC05 /* PickerAR */ = {
+			isa = PBXGroup;
+			children = (
+				27D107E62A896BDE0049619C /* Components */,
+				2771E6002A794FB0004DE9F9 /* Models */,
+				2771E5D12A742234004DE9F9 /* Views */,
+				2771E5D02A742226004DE9F9 /* Resources */,
+				2751ECA22A6D9B8300D1CC05 /* AppDelegate.swift */,
+				2751ECAA2A6D9B8400D1CC05 /* Preview Content */,
+			);
+			path = PickerAR;
+			sourceTree = "<group>";
+		};
+		2751ECAA2A6D9B8400D1CC05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2751ECAB2A6D9B8400D1CC05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2771E5D02A742226004DE9F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02A42A978FE3006555C9 /* Models */,
+				27D107E32A896B360049619C /* Strings */,
+				2771E5D32A742296004DE9F9 /* Generated */,
+				2751ECA82A6D9B8400D1CC05 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2771E5D12A742234004DE9F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02BD2A97B54F006555C9 /* BaseViews */,
+				27DC02982A96961E006555C9 /* HomeView */,
+				27E06CFF2A8AB82C004E268D /* ObjectViews */,
+				27E06CFE2A8AB820004E268D /* SkilletViews */,
+				2751ECA42A6D9B8300D1CC05 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2771E5D32A742296004DE9F9 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2771E5FB2A743B3B004DE9F9 /* R.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		2771E6002A794FB0004DE9F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02AF2A9792B3006555C9 /* Object */,
+				27E06D002A8AB88A004E268D /* SkilletModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27B0032D2A8BFB9C004B5E4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27B0032E2A8BFBB5004B5E4D /* View+Hidden.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		27CED6722A8FE7C6009F2420 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				27DC029B2A975703006555C9 /* Views */,
+				27E06CF92A8AB563004E268D /* ObjectView.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		27D107E32A896B360049619C /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				27D107E42A896B530049619C /* SkilletKeys.strings */,
+				27CED6752A90039E009F2420 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		27D107E62A896BDE0049619C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				27B0032D2A8BFB9C004B5E4D /* Extensions */,
+				27D107E72A896BF00049619C /* ViewRepresentable */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		27D107E72A896BF00049619C /* ViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				2771E6082A79609B004DE9F9 /* ObjectARViewContainer.swift */,
+				27D107EA2A896CFC0049619C /* SkilletARViewContainer.swift */,
+			);
+			path = ViewRepresentable;
+			sourceTree = "<group>";
+		};
+		27DC02982A96961E006555C9 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02992A969639006555C9 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		27DC029B2A975703006555C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2771E6042A795EDB004DE9F9 /* ConfirmButtonView.swift */,
+				279219522A7D2FDB009BFA26 /* ObjectARView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27DC029C2A9757EE006555C9 /* ChooseObject */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02B22A9792F1006555C9 /* Views */,
+				27DC029D2A97581D006555C9 /* ChooseObjectView.swift */,
+				27DC02A22A978596006555C9 /* ChooseObjectViewModel.swift */,
+			);
+			path = ChooseObject;
+			sourceTree = "<group>";
+		};
+		27DC02A42A978FE3006555C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02BB2A979E66006555C9 /* flowers.usdz */,
+				27DC02B62A97995D006555C9 /* drummertoy.usdz */,
+				27DC02B72A97995D006555C9 /* sneaker.usdz */,
+				27DC02B52A97995D006555C9 /* wateringcan.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27DC02AF2A9792B3006555C9 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02B02A9792CB006555C9 /* ObjectItems.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		27DC02B22A9792F1006555C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02B32A979412006555C9 /* ModelPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27DC02BD2A97B54F006555C9 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				27DC02BE2A97B56D006555C9 /* PickerNavigationLink.swift */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		27E06CFE2A8AB820004E268D /* SkilletViews */ = {
+			isa = PBXGroup;
+			children = (
+				27D107ED2A896DAA0049619C /* SkilletARView.swift */,
+				27E06CFC2A8AB57B004E268D /* SkilletView.swift */,
+				27CED6772A912D04009F2420 /* SliderView.swift */,
+			);
+			path = SkilletViews;
+			sourceTree = "<group>";
+		};
+		27E06CFF2A8AB82C004E268D /* ObjectViews */ = {
+			isa = PBXGroup;
+			children = (
+				27DC029C2A9757EE006555C9 /* ChooseObject */,
+				27CED6722A8FE7C6009F2420 /* Object */,
+			);
+			path = ObjectViews;
+			sourceTree = "<group>";
+		};
+		27E06D002A8AB88A004E268D /* SkilletModels */ = {
+			isa = PBXGroup;
+			children = (
+				27D107DD2A896AC10049619C /* SkilletJoint.swift */,
+				27D107DF2A896AE60049619C /* SkilletBone.swift */,
+				27D107E12A896B0A0049619C /* Bones.swift */,
+				27D107E82A896C4D0049619C /* BodySkillet.swift */,
+			);
+			path = SkilletModels;
+			sourceTree = "<group>";
+		};
+		302C658FAA4833D21A82A9A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B211B375D25F593B2F7BFB1 /* Pods_PickerAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2751EC9E2A6D9B8300D1CC05 /* PickerAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2751ECAF2A6D9B8400D1CC05 /* Build configuration list for PBXNativeTarget "PickerAR" */;
+			buildPhases = (
+				8807D194271AABD9BE9E1F05 /* [CP] Check Pods Manifest.lock */,
+				2771E5D82A7427B6004DE9F9 /* R.swift */,
+				2751EC9B2A6D9B8300D1CC05 /* Sources */,
+				2751EC9C2A6D9B8300D1CC05 /* Frameworks */,
+				2751EC9D2A6D9B8300D1CC05 /* Resources */,
+				91D762C5A3E0BA9DB0869C46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerAR;
+			packageProductDependencies = (
+				279219502A7D2F27009BFA26 /* FocusEntity */,
+			);
+			productName = PickerAR;
+			productReference = 2751EC9F2A6D9B8300D1CC05 /* PickerAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2751EC972A6D9B8300D1CC05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2751EC9E2A6D9B8300D1CC05 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2751EC9A2A6D9B8300D1CC05 /* Build configuration list for PBXProject "PickerAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2751EC962A6D9B8300D1CC05;
+			packageReferences = (
+				2792194F2A7D2F27009BFA26 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 2751ECA02A6D9B8300D1CC05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2751EC9E2A6D9B8300D1CC05 /* PickerAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2751EC9D2A6D9B8300D1CC05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D107E52A896B530049619C /* SkilletKeys.strings in Resources */,
+				27CED6762A90039E009F2420 /* Localizable.strings in Resources */,
+				27DC02BC2A979E66006555C9 /* flowers.usdz in Resources */,
+				2751ECAC2A6D9B8400D1CC05 /* Preview Assets.xcassets in Resources */,
+				27DC02BA2A97995D006555C9 /* sneaker.usdz in Resources */,
+				2751ECA92A6D9B8400D1CC05 /* Assets.xcassets in Resources */,
+				27DC02B82A97995D006555C9 /* wateringcan.usdz in Resources */,
+				27DC02B92A97995D006555C9 /* drummertoy.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2771E5D82A7427B6004DE9F9 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/PickerAR/Resources/Generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/PickerAR/Resources/Generated/R.generated.swift\"\n";
+		};
+		8807D194271AABD9BE9E1F05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D762C5A3E0BA9DB0869C46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerAR/Pods-PickerAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerAR/Pods-PickerAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickerAR/Pods-PickerAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2751EC9B2A6D9B8300D1CC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DC02B12A9792CB006555C9 /* ObjectItems.swift in Sources */,
+				2751ECA52A6D9B8300D1CC05 /* ContentView.swift in Sources */,
+				27DC02B42A979412006555C9 /* ModelPickerView.swift in Sources */,
+				2751ECA32A6D9B8300D1CC05 /* AppDelegate.swift in Sources */,
+				27D107EE2A896DAA0049619C /* SkilletARView.swift in Sources */,
+				27DC02BF2A97B56D006555C9 /* PickerNavigationLink.swift in Sources */,
+				27CED6782A912D04009F2420 /* SliderView.swift in Sources */,
+				27D107E92A896C4D0049619C /* BodySkillet.swift in Sources */,
+				27D107E02A896AE60049619C /* SkilletBone.swift in Sources */,
+				2771E6092A79609B004DE9F9 /* ObjectARViewContainer.swift in Sources */,
+				27DC02A32A978596006555C9 /* ChooseObjectViewModel.swift in Sources */,
+				27E06CFA2A8AB563004E268D /* ObjectView.swift in Sources */,
+				2771E5FC2A743B3B004DE9F9 /* R.generated.swift in Sources */,
+				2771E6052A795EDB004DE9F9 /* ConfirmButtonView.swift in Sources */,
+				279219532A7D2FDB009BFA26 /* ObjectARView.swift in Sources */,
+				27D107DE2A896AC10049619C /* SkilletJoint.swift in Sources */,
+				27D107EB2A896CFC0049619C /* SkilletARViewContainer.swift in Sources */,
+				27D107E22A896B0A0049619C /* Bones.swift in Sources */,
+				27DC029E2A97581D006555C9 /* ChooseObjectView.swift in Sources */,
+				27E06CFD2A8AB57B004E268D /* SkilletView.swift in Sources */,
+				27B0032F2A8BFBB5004B5E4D /* View+Hidden.swift in Sources */,
+				27DC029A2A969639006555C9 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2751ECAD2A6D9B8400D1CC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2751ECAE2A6D9B8400D1CC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2751ECB02A6D9B8400D1CC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAD96E541839C19522261BB /* Pods-PickerAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickerAR/Preview Content\"";
+				DEVELOPMENT_TEAM = L8252FQ78N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We ask permission to make the user can use the augment reality technology";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleveroad.PickerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2751ECB12A6D9B8400D1CC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7497DE636C282BB0B0059483 /* Pods-PickerAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickerAR/Preview Content\"";
+				DEVELOPMENT_TEAM = L8252FQ78N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We ask permission to make the user can use the augment reality technology";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleveroad.PickerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2751EC9A2A6D9B8300D1CC05 /* Build configuration list for PBXProject "PickerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2751ECAD2A6D9B8400D1CC05 /* Debug */,
+				2751ECAE2A6D9B8400D1CC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2751ECAF2A6D9B8400D1CC05 /* Build configuration list for PBXNativeTarget "PickerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2751ECB02A6D9B8400D1CC05 /* Debug */,
+				2751ECB12A6D9B8400D1CC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2792194F2A7D2F27009BFA26 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		279219502A7D2F27009BFA26 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2792194F2A7D2F27009BFA26 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2751EC972A6D9B8300D1CC05 /* Project object */;
+}
